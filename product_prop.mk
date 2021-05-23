@@ -19,6 +19,20 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.camera.display.lmax=1280x720 \
+    persist.vendor.camera.display.umax=1920x1080 \
+    camera.lowpower.record.enable=1 \
+    media.camera.ts.monotonic=1 \
+    persist.vendor.camera.CDS=off \
+    persist.vendor.camera.video.CDS=off \
+    persist.vendor.camera.eis.enable=1 \
+    persist.vendor.camera.dual.camera=0 \
+    persist.vendor.camera.gyro.disable=0 \
+    persist.vendor.camera.isp.clock.optmz=0 \
+    persist.vendor.camera.stats.test=5 \
+    persist.vendor.qti.telephony.vt_cam_interface=2 \
+    vidc.enc.dcvs.extra-buff-count=2 \
+    vendor.camera.lowpower.record.enable=1 \
     vendor.camera.aux.packagelist=org.lineageos.snap,net.sourceforge.opencamera,org.codeaurora.snapcam
 
 # Dex2oat
